@@ -1,0 +1,48 @@
+.card-title,h3,h2{
+    margin-top: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.card-text {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Barriecito", system-ui;
+    font-weight: bold;
+
+}
+
+#About-Me > .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+.me{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+a{
+    color:whitesmoke;
+}
+
+.latest-work > p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 992px) {
+    .row-cols-lg-4>* {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+}
