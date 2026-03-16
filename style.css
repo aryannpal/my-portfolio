@@ -40,9 +40,29 @@ a{
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media (min-width: 992px) {
-    .row-cols-lg-4>* {
-        flex: 0 0 auto;
-        width: 80%;
+@media (max-width: 576px) {
+    .card-title, h3, h2 {
+        font-size: clamp(1.4rem, 6vw, 2rem);
+        margin-top: 15px;
+    }
+
+    #heros .card-img-overlay {
+        padding: 10px;
+    }
+
+    #Resume .row {
+        gap: 1rem;
+    }
+
+    #About-Me > .container {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
